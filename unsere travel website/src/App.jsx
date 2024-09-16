@@ -1,7 +1,10 @@
 import Footer from "./components/Footer";
-
+import SubscriptionSection from "./components/SubscriptionSection";
 function App() {
-  return <><Footer /></>;
+  return <>
+  <SubscriptionSection />
+  <Footer />
+  </>;
 }
 
 export default App;
