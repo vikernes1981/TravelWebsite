@@ -1,29 +1,32 @@
 const Hero = () => {
   return (
     <div>
-      <ul>
-        <li>
-          <h6>Best Destinations around the world</h6>
-          <h1>Travel, enjoy and live a new and full life</h1>
+      <ul className="flex mx-10">
+        <li className="py-40">
+          <h6 className="text-l text-amber-600 font-bold">
+            BEST DESTINATIONS AROUND THE WORLD
+          </h6>
+          <h1 className="text-6xl font-bold">
+            Travel, enjoy <br />
+            and live a new <br />
+            and full life
+          </h1>
           <p>
-            Built Wicket longer admire do barton vanity itself do in it.
-            Preferred to sportsmen it engrossed listening. Park gate sell they
-            west hard for the.
+            Built Wicket longer admire do barton vanity itself do in it. <br />
+            Preferred to sportsmen it engrossed listening. Park gate <br />
+            sell they west hard for the.
           </p>
-          <ul flex>
+          <ul className="flex gap-5 pt-5">
             <li>
-              <button>Find out more</button>
+              <button className="btn bg-orange-300 ">Find out more</button>
             </li>
             <li>
-              <button>Play Demo</button>
+              <button className="btn ">Play Demo</button>
             </li>
           </ul>
         </li>
         <li>
-          <img
-            src="https://www.figma.com/design/fHCkso9M2rQi9WnjYyOlqv/Travel-Website-Landing-Page-(Community)?node-id=108-60&t=Y1Z98FYOyxTJNedA-4"
-            alt="Flight"
-          />
+          <img src="/src/Flight.png" alt="Flight" />
         </li>
       </ul>
     </div>
