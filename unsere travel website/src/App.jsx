@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
+
 function App() {
-  return <>Travel Website</>;
+  return <><Footer /></>;
 }
 
 export default App;
