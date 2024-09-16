@@ -1,10 +1,19 @@
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import SubscriptionSection from "./components/SubscriptionSection";
+import Services from "./components/Services";
+
 function App() {
-  return <>
-  <SubscriptionSection />
-  <Footer />
-  </>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <SubscriptionSection />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
