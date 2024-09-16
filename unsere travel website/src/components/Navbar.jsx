@@ -1,14 +1,11 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mx-10">
       <div className="flex-1">
-        <img
-          src="https://www.figma.com/design/fHCkso9M2rQi9WnjYyOlqv/Travel-Website-Landing-Page-(Community)?node-id=1-136&t=Y1Z98FYOyxTJNedA-4"
-          alt="Logo"
-        />
+        <img src="/src/Logo.png" alt="Logo" />
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 gap-16 font-bold">
           <li>
             <a>Destinations</a>
           </li>
